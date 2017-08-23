@@ -1,23 +1,46 @@
 body {
-	background: url(assets/images/background.jpg);
+	background: url(../images/background.jpg);
+	background-size: cover;
+	z-index: 0;
 }
 
-header
+h1, h2 {
+	font-weight: 700;
+	color: blue;
+	text-align: center;
+}
 
-.images
+h1 {
+		padding: 40px;
+		font-size: 70px;
+}
 
+h2 {
+	font-size: 28px;
+	font-style: italic;
 
-.soundCard
+}
 
+p {
+	font-size: 20px;
+}
 
-footer
+.images {
+	height: 200px;
+}
 
-.missingLetters
+.footer {
+  padding: 20px 0;
+  font-size: 12px;
+  color: #eee;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid blue;
+}
 
+.container {
+	height: 600px;
 
-.title
-
-
-.container
+}
 
 
